@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8" />
+	<title>Title This Page :)</title>
+
+	<!-- jQuery: Grab Google CDN jQuery. fall back to local if necessary -->
+	<script src="bower_components/jquery/dist/jquery.min.js"></script>
+	<script src="bower_components/modernizr/modernizr.js"></script>
+
+	<!-- The raptorize file  -->
+	<script src="src/jquery-boo.js"></script>
+
+	<!-- For the button version -->
+	<script type="text/javascript">
+		// $(window).load(function() {
+		// 	$('.button').raptorize();
+		// });
+	</script>
+
+	<!-- For the Konami Code version -->
+	<script type="text/javascript">
+		// $(window).load(function() {
+		// 	$('.button').raptorize({
+		// 		'enterOn' : 'konami-code'
+		// 	});
+		// });
+	</script>
+
+
+	<!-- For the honey boo boo with sound version -->
+	<script type="text/javascript">
+	$(window).load(function() {
+		$('.booboo').raptorize({
+			'image' : 'image/honey_boo_boo.png',
+			'audio_on': true
+		});
+	});
+	</script>
+
+	<!-- For the Timer version -->
+	<!-- <script type="text/javascript">
+		$(window).load(function() {
+			$('.button').raptorize({
+				'enterOn' : 'timer',
+				'delayTime' : 2000
+			});
+		});
+	</script>
+	-->
+
+</head>
+<body>
+	<h1>Hey There!</h1>
+
+	<!-- <p><a href="#" class="button">Click me</a> to activate the Raptorize plugin.</p> -->
+	<p><a href="#" class="booboo">Click me</a> to see honey boo boo roar.</p>
+	<!-- <p>You can also use the Konami-Code (on your keyboard type &uarr; &uarr; &darr; &darr; &larr; &rarr; &larr; &rarr; B A)</p> -->
+
+</body>
+</html>
